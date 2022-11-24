@@ -1,4 +1,7 @@
 import React from "react";
+import sliderone from "../../assets/sliderone.webp"
+import slidethree from "../../assets/slider3.jpg"
+ 
 
 const Slider = () => {
   return (
@@ -10,10 +13,10 @@ const Slider = () => {
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image"/>
+                    <img class="w-100 sliderone " src={slidethree} alt="Image" style={{height:"50%"}}/>
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style={{ maxWidth:"900px"}}>
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative LEAP and Physio</h5>
+                            <h5 class="text-white   mb-3 animated slideInDown">Creative & Innovative LEAP and Physio</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
                             <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
                             <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
@@ -21,10 +24,10 @@ const Slider = () => {
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image"/>
+                    <img class="w-100" src={sliderone} alt="Image"/>
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style={{ maxWidth:"900px"}}>
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
+                            <h5 class="text-white   mb-3 animated slideInDown">Creative & Innovative</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Creative & Innovative Digital Solution</h1>
                             <a href="quote.html" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Free Quote</a>
                             <a href="" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
