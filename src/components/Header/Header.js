@@ -4,11 +4,11 @@ import logo from "../../assets/logo.png";
 const Header = () => {
   return (
     <div className="">
-      <nav class="navbar navbar-expand-lg bg-success px-5 py-3    ">
-        <a href=" " class="navbar-brand  ">
+      <nav class="navbar navbar-expand-lg  px-5 py-3    " style={{backgroundColor:"#fff7eb"}}>
+        <a href=" " class="navbar-brand mt-4 ">
           <img
             src={logo}
-            className=" "
+            className="  "
             alt=""
             style={{ width: "100px", height: "100px" }}
           />
@@ -23,19 +23,19 @@ const Header = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-5">
-            <a href="index.html" class="nav-item text-white nav-link active">
+            <a href="index.html" class="nav-item text-black nav-link active">
               Home
             </a>
-            <a href="about.html" class="nav-item  text-white nav-link">
+            <a href="about.html" class="nav-item  text-black nav-link">
               About
             </a>
-            <a href="service.html" class="nav-item text-white nav-link">
+            <a href="service.html" class="nav-item text-black  nav-link">
               Services
             </a>
             <div class="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle text-white"
+                class="nav-link dropdown-toggle text-black "
                 data-bs-toggle="dropdown"
               >
                 Blog
@@ -52,7 +52,7 @@ const Header = () => {
             <div class="nav-item dropdown">
               <a
                 href="#"
-                class="nav-link dropdown-toggle text-white"
+                class="nav-link dropdown-toggle text-black "
                 data-bs-toggle="dropdown"
               >
                 Pages
